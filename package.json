@@ -1,0 +1,37 @@
+{
+  "name": "expense-management-fullstack",
+  "version": "1.0.0",
+  "description": "A full-stack mobile application for expense management built with React Native (Expo) and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm start",
+    "backend-dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run backend-dev\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelith-2002/Expense-Managment-Fullstack-app.git"
+  },
+  "keywords": [
+    "expense-management",
+    "react-native",
+    "expo",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mobile-app",
+    "fullstack"
+  ],
+  "author": "Nelith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelith-2002/Expense-Managment-Fullstack-app/issues"
+  },
+  "homepage": "https://github.com/nelith-2002/Expense-Managment-Fullstack-app#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
