@@ -1,3 +1,52 @@
 # Node.js / Backend
 backend/node_modules/
 backend/.env
+
+
+#  React Native / Expo (Mobile)
+
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/expo-env.d.ts
+
+# Native build folders
+mobile/android/
+mobile/ios/
+mobile/.gradle/
+mobile/.vscode/
+mobile/.idea/
+
+# Metro bundler cache
+mobile/.metro-health-check*
+
+# Debug logs
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
+
+# macOS junk files
+.DS_Store
+*.orig.*
+*.pem
+
+# Keystores & provisioning
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Local environment files
+.env
+.env*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Misc / Generated
+app-example/
+expo-error.log
+web-build/
+dist/
